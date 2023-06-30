@@ -1,0 +1,44 @@
+
+.head_user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border: 1px solid #284b63;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    .head_img{
+            img{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                border: 1px solid #284b63;
+            }
+    }
+    .head_name{
+        padding-left: 20px;
+        font-size: 22px;
+        color: #284b63;
+        font-weight: 600;
+    }
+    .like_text{
+        padding-left: 20px;
+        font-size: 20px;
+        color: #284b63;
+        font-weight: 600;
+    }
+    .icon_like{
+        display: block;
+        margin: 0 auto;
+        padding-right: 20px;
+        i{
+            font-size: 42px;
+            color: #284b63;
+            text-align: center;
+            padding: 40px 0px 50px 0px;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+    }
+}

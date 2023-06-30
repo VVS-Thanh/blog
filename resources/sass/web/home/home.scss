@@ -1,0 +1,234 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    // background: #e9ecef;
+    background: #fff;
+}
+
+.home {
+    padding: 80px 0px 40px 0px;
+}
+
+.group-content-item {
+    display: flex !important;
+    justify-content: flex-start;
+}
+
+.box-content-left {
+    width: 200px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.box-content-right {
+    padding-left: 20px;
+
+    &-title {
+        font-size: 18px;
+        font-weight: 800;
+    }
+}
+
+.head-title {
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.group-right {
+    padding-top: 20px;
+
+    &-head {
+        display: flex;
+        justify-content: space-between;
+
+        &-content {
+            max-width: 150px;
+            position: relative;
+
+            img {
+                max-width: 100%;
+                border-radius: 2px;
+            }
+
+            span {
+                color: #fff;
+                background: #284b63;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: 0 auto;
+                font-size: 10px;
+                padding-left: 2px;
+                font-weight: 500;
+                border-radius: 2px;
+
+            }
+        }
+    }
+
+    &-bottom {
+        padding-top: 20px;
+        max-width: 321px;
+        position: relative;
+
+        img {
+            max-width: 100%;
+            border-radius: 2px;
+        }
+
+        span {
+            color: #fff;
+            background: #284b63;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0 auto;
+            font-size: 12px;
+            padding-left: 2px;
+            font-weight: 600;
+        }
+    }
+}
+
+.group-left-slider-head {
+    display: flex;
+    justify-content: flex-start;
+
+    img {
+        width: 60px;
+        border-radius: 50%;
+    }
+}
+
+.time_writting {
+    padding-left: 20px;
+}
+
+.box-head {
+    // margin: 0 auto;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paginator {
+    position: relative;
+    float: right;
+    margin-bottom: 20px;
+
+    li {
+        margin-top: 20px;
+        position: relative;
+        float: left;
+
+        margin-right: 20px;
+
+        &.prev {
+            display: block;
+            height: 20px;
+            width: 20px;
+            background: rgb(165, 17, 17);
+            // background: url('../img/back.png') no-repeat;
+        }
+
+        &.next {
+            display: block;
+            height: 20px;
+            width: 20px;
+            background: #000;
+            // background: url('../img/next.png') no-repeat;
+        }
+    }
+}
+
+.prev {
+    i {
+        color: #284b63;
+        font-size: 80px;
+    }
+}
+
+.prev-1 {
+    i {
+        color: #284b63;
+        font-size: 80px;
+    }
+}
+
+.next {
+    i {
+        color: #284b63;
+        font-size: 80px;
+    }
+}
+
+.next-1 {
+    i {
+        color: #284b63;
+        font-size: 80px;
+    }
+}
+
+.box-other-content {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 4px 12px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.other-img {
+    border-radius: 8px;
+}
+
+.other-pagination {
+    margin-top: 20px;
+}
+
+.group-content-item {
+    margin-top: 20px !important;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    padding: 8px 14px;
+}
+
+.spinner-login {
+    width: 80px !important;
+    height: 80px !important;
+    font-size: 40px !important;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin: auto;
+}
+
+.loading_page {
+    position: fixed;
+    height: 100vh;
+    top: 0px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    background: #fff;
+    z-index: 10;
+
+    .spinner-border {
+        // border: 1em solid currentColor;
+        // width: 5rem;
+        // height: 5rem;
+    }
+
+    .loading-spinner {
+        span {}
+    }
+}

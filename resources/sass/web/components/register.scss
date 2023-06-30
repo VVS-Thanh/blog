@@ -1,0 +1,31 @@
+.register{
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    background:  #284b63;
+    padding: 20px 40px 40px 20px !important;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    &-title{
+        font-size: 24px;
+        color: #fff;
+        font-weight: 700;
+    }
+    &-content{
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+    }
+    &-logo{
+        img{
+            display: block;
+            margin: 0 auto;
+            max-width: 100px;
+        }
+    }
+    &-cover{
+        padding: 0px 0px 100px 0px;
+    }
+
+}

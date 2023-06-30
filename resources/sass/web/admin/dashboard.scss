@@ -1,0 +1,63 @@
+section {
+    margin-bottom: 10px;
+}
+.admin_dashboard{
+    background-color: #284b63;
+   
+
+
+    .item_sidebar{
+        // padding: 6px 0px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+
+        &:hover{
+            // color: red;
+            // box-shadow: 2px 2px 2px 2px #ccc;
+        }
+    }
+    .group_item_side{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid #Fff;
+        border-top: 1px solid #Fff;
+        padding: 4px 0px;
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #284b63;
+        padding-left: 10px;
+        &:hover{
+            background: rgb(224, 221, 221);
+        }
+        .item_side_text{
+            color: #284b63;
+        }
+    }
+    .group_item_sidebar{
+        width: 100%;
+    }
+    .group_head{
+        padding: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.group_item_table
+{
+    td{
+        padding: 10px 6px;
+    }
+    th{
+        padding: 10px 6px;
+    }
+
+}
+.add_new_btn{
+    background: rgb(41, 138, 41);
+    border-radius: 4px;
+    border: none;
+
+}

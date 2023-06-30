@@ -1,0 +1,50 @@
+.profile{
+    min-height: 100vh;
+    .head-title{
+        color: #284b63;
+    }
+    &-main{
+        padding-top: 100px;
+        &-top{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 40px 0px;
+            img{
+                display: block;
+                margin: 0 auto;
+                max-width: 200px;
+                border-radius: 8px;
+                // border: 1px solid #ccc;
+                box-shadow: 2px 2px 2px 2px #ccc;
+            }
+            .top-infor{
+                padding-left: 100px;
+
+            }
+        }
+        &-bot{
+            padding: 40px 0px;
+            .profile-text {
+                font-size: 16px;
+                font-weight: 600;
+                color: #284b63;
+            }
+        }
+    }
+    .vertical-line{
+        height: 1px;
+        max-width: 100%;
+        background-color: #ccc;
+        box-shadow: 2px 2px 2px 2px #284b63;
+    }
+    .list_blog{
+        padding: 40px 0px;
+    }
+}
+.vertical-line{
+    height: 1px;
+    max-width: 100%;
+    background-color: #ccc;
+    box-shadow: 2px 2px 2px 2px #284b63;
+}

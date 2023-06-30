@@ -1,0 +1,44 @@
+.detail{
+    padding: 120px 0 100px 0;
+    padding: 80px 0px 0px 0px;
+}
+.input-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: #284b63;
+}
+.form-detail-group{
+    display: flex;
+    align-items: center;
+}
+.btn_add_type{
+    font-size: 16px;
+    padding: 6px 12px;
+}
+.select-form{
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+}
+.form-type{
+    padding-left: 20px;
+}
+.btn-save{
+    padding: 8px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #284b63;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+.box-thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        max-width: 200px;
+    }
+}
